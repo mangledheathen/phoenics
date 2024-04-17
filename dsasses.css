@@ -3,6 +3,12 @@
     src: url(TambaSansDemo-Bold.otf);
 }
 
+@font-face {
+    font-family: 'Aladin';
+    src: url(Aladin-Regular.ttf);
+        
+}
+
 @keyframes appear {
     from {
         opacity: 0;
