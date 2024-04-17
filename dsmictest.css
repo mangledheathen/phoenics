@@ -3,6 +3,11 @@
     src: url(TambaSansDemo-Bold.otf);
 }
 
+@font-face {
+    font-family: "Aladin";
+    src: url(Aladin-Regular.ttf);
+}
+
 body {
     margin: 0;
 }
