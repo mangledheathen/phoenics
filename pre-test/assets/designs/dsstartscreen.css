@@ -27,42 +27,33 @@ body {
     z-index: -1;
 }
 
-.headings {
-    text-align: center;
-
-    border-style: solid;
-    border-radius: 20px;
-
-    width: 450px;
-    font-size: 25px;
-
-    margin: auto;
-
-    font-family: 'Aladin';
-    color: white;
-
-    position: relative;
-    top: 20px;
-
-    background-color: rgb(179, 50, 50);
-
-    animation: appear 3.5s forwards;
-
-}
-
 #cau {
     font-family: 'Tamba Sans';
     font-size: 60px;
     margin:15px 0 -18px 0;
     color: white;
-    background-color:rgb(33, 31, 32) ;
+    background-color:rgb(33, 31, 32);
 }
+
+.headings {
+    text-align: center;
+    font-family:'Tamba Sans'; 
+    margin-top: 10px; 
+    color: white;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.2;
+    margin: auto;
+    position: relative;
+    background-color: rgba(205, 53, 53, 1);
+    padding: 1px;
+    border-radius: 10px;
+}
+  
 
 .swear {
     text-align: center;
-
     font-family: 'Tamba Sans';
-
     position: relative;
     top: 20px;
 }
@@ -87,6 +78,7 @@ body {
     cursor: pointer;
     border: 2px rgb(137, 27, 27);
     box-shadow:rgb(137, 27, 27) 5px 5px, rgb(238, 83, 83) 10px 10px, rgb(244, 162, 162) 15px 15px;
+    
 }
 
 .swear #solemnly {
