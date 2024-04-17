@@ -126,6 +126,22 @@ body {
     background-color:white;
 }
 
+#say:hover {
+
+    font-family: 'Tamba Sans';
+    font-size: 18px;
+    
+    position: relative;
+    top: 20px;
+
+    padding: 10px 50px;
+
+    border-radius: 10px;
+    border-style: none;
+
+    background-color:rgb(220, 159, 159);
+}
+
 #next {
     
     transition-duration: 1s;
@@ -142,6 +158,23 @@ body {
     border-style: none;
 
     background-color:rgb(33, 31, 32);
+    color: white;
+}
+
+#next:hover {
+
+    font-family: 'Tamba Sans';
+    font-size: 18px;
+    
+    position: relative;
+    top: 20px;
+
+    padding: 10px 50px;
+
+    border-radius: 10px;
+    border-style: none;
+
+    background-color:rgb(97, 78, 78);
     color: white;
 }
 
