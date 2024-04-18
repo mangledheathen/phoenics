@@ -74,7 +74,7 @@ p {
 }
 
 .btn2 {
-      padding: 5px;
+    padding: 5px;
     width: 300px;
     font-family: 'tamba-sans';
     font-weight: 400;
@@ -84,7 +84,6 @@ p {
     color: white;
     border-radius: 10px;
     transition-duration: 1s;
-     
 }
 
 .btn:hover {
