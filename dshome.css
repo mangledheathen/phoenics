@@ -74,15 +74,16 @@ p {
 }
 
 .btn2 {
-    font-size: 2em;
-    padding: 5px 10px 5px 10px;
-    
-     font-family: 'aladin';
-     letter-spacing: 2px;
-     background:rgba(33, 31, 31, 1);
-     color: white;
-     border-radius: .5rem;
-     transition-duration: 1s;
+      padding: 5px;
+    width: 300px;
+    font-family: 'tamba-sans';
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 2px;
+    background:rgb(179, 50, 50);
+    color: white;
+    border-radius: 10px;
+    transition-duration: 1s;
      
 }
 
@@ -91,3 +92,7 @@ p {
     box-shadow:rgb(137, 27, 27) 5px 5px, rgb(238, 83, 83) 10px 10px, rgb(244, 162, 162) 15px 15px;
 }
 
+.btn2:hover {
+    border: 2px rgb(137, 27, 27);
+    box-shadow:rgb(30, 26, 26) 5px 5px, rgb(70, 68, 68) 10px 10px, rgb(158, 158, 158) 15px 15px;
+}
